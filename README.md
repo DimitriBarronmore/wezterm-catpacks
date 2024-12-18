@@ -27,10 +27,6 @@ Determines how much of the vertical wezterm window height at most can be occupie
 
 Determines the opacity of the cat image background layer. Setting this below 1.0 can help keep text readable while on top of unfortunately colored images. Default: 0.6
 
-- catpacks.draw_cat : bool
-
-If set to false, freshly calculated kitties will always have an opacity of 0. Combined with **catpacks.toggle_cats**, this can be used to hide the cat layer until a key combination is pressed. Default: true
-
 - catpacks.add_kitty(window, config, filepath, index)
 
 Add an image as layer `index` in config.background, scaled and positioned like the MultiMC cat.
